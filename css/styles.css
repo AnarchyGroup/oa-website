@@ -6,11 +6,15 @@
     font-family: Minecraft-reg;
     src: url(./fonts/MinecraftRegular-Bmg3.otf);
 }
+@font-face {
+    font-family: consolas;
+    src: url(./fonts/Consolas.TTF);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: oaf;
+    font-family: Minecraft-reg;
 }
 body{
     background-image: url("../images/sqww754f9zu41.png");
@@ -19,6 +23,8 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 html {
     min-height: 100%;
@@ -43,11 +49,13 @@ html {
  }
  .p-1{
      font-family: Minecraft-reg;
-     transition: 1s;
+     width: 60%;
+     border-radius: 5px;
+     transition: 0.4s;
  }
  .p-1:hover{
-     font-size: 24px;
-     transition: 1s;
+     background-color: rgb(228, 228, 228);
+     transition: 0.4s;
  }
 .q{
      font-family: Minecraft-bold;
@@ -77,7 +85,7 @@ h1{
     font-family: Minecraft-bold;
 }
 .qb{
-    width: 3.5cm; !important;
+    width: 3.5cm !important;
     height: 3.5cm;
     border-radius: 100%;
 }
@@ -85,7 +93,7 @@ h1{
     font-family: Minecraft-reg;
     margin-top: 1.2cm;
     float: right;
-
+    color: white;
 }
 .prof{
     width: 132px;
@@ -93,4 +101,15 @@ h1{
 }
 .h11{
     width:auto;
+}
+.console-f {
+    padding: 0px 2px;
+    font-family: consolas;
+    background-color: rgb(196, 196, 196);
+}
+.oa-mention {
+    background: linear-gradient(135deg, #5a6afa 0%, #ad5afa 40%, #F23E2A 100%);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
