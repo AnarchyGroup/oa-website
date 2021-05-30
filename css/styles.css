@@ -31,35 +31,33 @@ html {
 }
 .navbar-brand{
     margin-left: 10px;
-    font-family: Minecraft-bold;
+    padding: 0;
 }
 .nav-link{
     font-family: Minecraft-reg;
-
 }
 .navbar{
-    border-color: #131316;
-}footer{
+    background-color: #f1f1f1;
+    border-bottom: #5a6afa solid 5px;
+}
+footer{
     font-family: Minecraft-reg;
- }
- .container{
+}
+.container{
      height: 1000px;
      margin-left: 5px;
      margin-top: 30px;
- }
- .p-1{
+}
+.p-1{
      font-family: Minecraft-reg;
      width: 60%;
      border-radius: 5px;
      transition: 0.4s;
- }
- .p-1:hover{
+}
+.p-1:hover{
      background-color: rgb(228, 228, 228);
      transition: 0.4s;
- }
-.q{
-     font-family: Minecraft-bold;
- }
+}
 hr{
     width: 15cm;
 }
@@ -84,15 +82,35 @@ hr{
 h1{
     font-family: Minecraft-bold;
 }
+.qb-self {
+    color: white;
+    background-color: #5a6afa;
+}
 .qb{
     width: 3.5cm !important;
     height: 3.5cm;
+    border: white solid 3px;
     border-radius: 100%;
 }
 .abt{
+    margin:10px;
+    margin-top: 0.8cm;
     font-family: Minecraft-reg;
-    margin-top: 1.2cm;
-    float: right;
+    padding: 10px;
+    color:#212529;
+    background-color: white;
+    border-radius: 6px;
+}
+.donate {
+    margin-left: -10px;
+    text-decoration: none;
+    color: white;
+    background-color: #5a6afa;
+    transition: 0.6s;
+}
+.donate:hover {
+    transition: 0.6s;
+    background-color: #7d8aff;
     color: white;
 }
 .prof{
@@ -113,3 +131,11 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.q{
+    font-family: Minecraft-bold;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+  
+  
