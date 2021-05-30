@@ -6,7 +6,7 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+\index\s [NC]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+\index.html\s [NC]
 RewriteRule ^ /home? [R=302,L]
 
 RewriteRule ^home/?$ /?chapter=1 [L,NC,QSA]
