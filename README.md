@@ -1,3 +1,3 @@
 # Official OpenAnarchy website
 
-After all this time website is officially done!
+After all this time the lazy devs finally finished the website
